@@ -1,0 +1,79 @@
+*{
+    margin: 0.2%;
+    padding: 0.5%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cabecalho {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cabecalho h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .cabecalho p {
+    font-size: 15px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .cabecalho a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .cabecalho p:first-of-type::before {
+    content: "• ";
+  }
+  
+  .cabecalho p:last-of-type {
+    margin-top: -10px;
+  }
+
+
+#todo
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+#cidadeEmpresa
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#atributos
+{
+  margin-left: 8%;
+
+}
+
+p {
+  font-size: 10px;
+}
+h3 
+{
+  border-bottom: 2px solid black;
+  font-size: 12px;
+
+}
+h5{
+  font-size: 10px;
+}
+li
+{
+  font-size: 12px;
+
+}
